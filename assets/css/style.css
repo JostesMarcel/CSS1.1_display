@@ -1,0 +1,13 @@
+div:nth-of-type(1) {
+    margin: 2% 0 5% 5%;
+}
+
+div:nth-of-type(2) {
+    margin: 0 0 0 3%;
+    display: none;
+}
+
+div:nth-of-type(1):hover + div:nth-of-type(2) {
+    display: block;
+}
+
